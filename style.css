@@ -249,6 +249,11 @@
             font-weight: bold;
             transition: 0.3s;
         }
+/* Modo escuro */
+@media (prefers-color-scheme: light) {
+    .social-links a {
+        color: black !important; /* Preto no modo claro */
+    }
         .social-links a:hover {
             color: #ffcc00;
         }
