@@ -31,6 +31,9 @@
                 font-size: 16px; /* Texto um pouco menor */
                 line-height: 1.4; /* Ajusta espaçamento das linhas */
             }
+            #about p {
+                text-align: justify;
+            }
         .container {
             display: flex;
             max-width: 900px;
