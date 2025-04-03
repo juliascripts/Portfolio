@@ -63,7 +63,7 @@
             margin: 10px 5px;
             text-decoration: none;
             font-size: 18px;
-            color: #FFFF;
+            color: white; !important
             font-weight: bold;
             transition: 0.3s;
         }
