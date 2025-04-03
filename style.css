@@ -67,6 +67,10 @@
             font-weight: bold;
             transition: 0.3s;
         }
+@media (prefers-color-scheme: root) {
+    .social-links a {
+        color: white; /* Branco no modo escuro */
+    }
         .social-links a:hover {
             color: #ffcc00;
         }
