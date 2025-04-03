@@ -12,11 +12,25 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 10px;
-            min-height: 20vh;
+            padding: 60px;
+            min-height: 100vh;
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
         }
+            #about {
+                padding: 20px 10px; /* Antes era 60px */
+                margin: 20px auto; /* Reduzindo espaçamento */
+                max-width: 800px; /* Evita que fique muito larga */
+            }
+
+            #about h2 {
+                font-size: 22px; /* Antes estava maior, agora ocupa menos espaço */
+            }
+
+            #about p, #about ul {
+                font-size: 16px; /* Texto um pouco menor */
+                line-height: 1.4; /* Ajusta espaçamento das linhas */
+            }
         .container {
             display: flex;
             max-width: 900px;
