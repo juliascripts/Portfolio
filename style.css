@@ -63,12 +63,12 @@
             margin: 10px 5px;
             text-decoration: none;
             font-size: 18px;
-            color: white;
+            color: #FFFF;
             font-weight: bold;
             transition: 0.3s;
         }
         .social-links a:hover {
-            color: #FFFFFF;
+            color: #ffcc00;
         }
         .projects {
             display: flex;
