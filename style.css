@@ -63,7 +63,7 @@
             margin: 10px 5px;
             text-decoration: none;
             font-size: 18px;
-            color: black; !important
+            color: white; !important
             font-weight: bold;
             transition: 0.3s;
         }
@@ -240,12 +240,12 @@
         .content {
             text-align: left;
         }
-        .social-links a {
+#contact .social-links a {
             display: inline-block;
             margin: 10px 5px;
             text-decoration: none;
             font-size: 18px;
-            color: black;
+            color: black; !important
             font-weight: bold;
             transition: 0.3s;
         }
