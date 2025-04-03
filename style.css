@@ -58,7 +58,7 @@
         .content {
             text-align: left;
         }
-        .social-links a {
+#contact .social-links a {
             display: inline-block;
             margin: 10px 5px;
             text-decoration: none;
