@@ -68,7 +68,7 @@
             transition: 0.3s;
         }
         .social-links a:hover {
-            color: black;
+            color: white;
         }
         .projects {
             display: flex;
