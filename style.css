@@ -68,7 +68,7 @@
             transition: 0.3s;
         }
         .social-links a:hover {
-            color: #ffcc00;
+            color: black;
         }
         .projects {
             display: flex;
@@ -250,7 +250,7 @@
             transition: 0.3s;
         }
             .social-links a:hover {
-                        color: #ffcc00;
+                        color: white;
         }
         .projects {
             display: flex;
