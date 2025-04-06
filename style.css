@@ -63,12 +63,12 @@
             margin: 10px 5px;
             text-decoration: none;
             font-size: 18px;
-            color: white;
+            color: white !important;
             font-weight: bold;
             transition: 0.3s;
         }
         .social-links a:hover {
-            color: white;
+            color: white !important;
         }
 #projects {
   padding: 60px 20px;
@@ -289,19 +289,19 @@
                         color: black;
         }
         
-  body.light #projects {
+  .light #projects {
   padding: 60px 20px;
   text-align: center;
   background-color: #f9f9f9;
 }
 
-body.light #projects h2 {
+.light #projects h2 {
   font-size: 32px;
   margin-bottom: 40px;
   color: black;
 }
 
-body.light .projects {
+.light .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -311,7 +311,7 @@ body.light .projects {
   padding: 40px;
 }
 
-body.light .project-item {
+.light .project-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -324,40 +324,40 @@ body.light .project-item {
   transition: transform 0.3s ease;
 }
 
-body.light .project-item:hover {
+.light .project-item:hover {
   transform: scale(1.03);
 }
 
-body.light .project-item img {
+.light .project-item img {
   width: 150px;
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-body.light .project-content {
+.light .project-content {
   text-align: left;
   flex: 1;
 }
 
-body.light .project-content h3 {
+.light .project-content h3 {
   margin: 0;
   font-size: 22px;
   color: black;
 }
 
-body.light .project-content p {
+.light .project-content p {
   margin: 10px 0;
   color: black;
 }
 
-body.light .project-content a {
+.light .project-content a {
   color: black !important;
   font-weight: bold;
   text-decoration: none;
 }
 
-body.light .project-content a:hover {
+.light .project-content a:hover {
   text-decoration: underline;
 }
 
