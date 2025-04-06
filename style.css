@@ -106,6 +106,12 @@
 .project-item a:hover {
     text-decoration: underline;
 }
+.project-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
         .skills-list {
             display: flex;
             flex-wrap: wrap;
@@ -290,12 +296,18 @@
 }
 
 .light .project-item a {
-    color: #007acc;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 .light .project-item a:hover {
     text-decoration: underline;
+}
+.light .project-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
 }
         .skills-list {
             display: flex;
