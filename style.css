@@ -288,7 +288,8 @@
             .social-links a:hover {
                         color: black;
         }
-        body.light #projects {
+        
+  body.light #projects {
   padding: 60px 20px;
   text-align: center;
   background-color: #f9f9f9;
@@ -305,6 +306,9 @@ body.light .projects {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  max-width: 1200px;     /* Centralização em notebook */
+  margin: 0 auto;         /* Centraliza horizontalmente */
+  padding: 40px;
 }
 
 body.light .project-item {
@@ -356,6 +360,8 @@ body.light .project-content a {
 body.light .project-content a:hover {
   text-decoration: underline;
 }
+
+
         .skills-list {
             display: flex;
             flex-wrap: wrap;
