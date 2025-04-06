@@ -165,7 +165,9 @@
                 flex-direction: column;
             }    
         }
-       
+       .reveal {
+        opacity: 1 !important;
+    }
             #switch{
                 position: relative;
                 width: 66px;
