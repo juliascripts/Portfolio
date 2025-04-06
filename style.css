@@ -318,7 +318,7 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: linear-gradient(135deg,#B0E0E6, #D8BFD8, #E6E6FA);
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
