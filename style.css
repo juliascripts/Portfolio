@@ -90,6 +90,7 @@
             margin-right: 20px;
             opacity: 0;
             transition: opacity 1s ease-in-out;
+            color: black;
         }
         .project-item img {
             width: 100%;
@@ -274,6 +275,7 @@
             margin-right: 20px;
             opacity: 0;
             transition: opacity 1s ease-in-out;
+            color: white;
         }
         .project-item img {
             width: 100%;
